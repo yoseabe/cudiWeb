@@ -1,228 +1,240 @@
-﻿body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .container {
-    position: absolute;
-    top: 0;
-    min-height: 100vh;
-    width: 1000px;
-    border: 1px solid #ccc;
-    padding: 0px;
-    box-sizing: border-box;
-    background: #B6C729;
+  position: absolute;
+  top: 0;
+  min-height: 100vh;
+  width: 1000px;
+  border: 1px solid #ccc;
+  padding: 0px;
+  box-sizing: border-box;
+  background: #b6c729;
 }
 
 .topDiv {
-    display: flex;
-    justify-content: center;
-    padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
 }
 
 .navBar {
-    border-radius: 30px;
-    display: flex;
-    background-color: black;
-    width: 900px;
-    justify-content: center;
+  border-radius: 30px;
+  display: flex;
+  background-color: black;
+  width: 900px;
+  justify-content: center;
 }
 
+.ulNav {
+  display: flex;
+  align-items: center;
+}
+
+.ulNav li {
+  list-style: none;
+}
 .navBar a {
-    color: white;
-    font-size: 30px;
-    padding: 30px;
-    text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+  text-decoration: none;
 }
 
 .mainImage {
-    padding-top: 5px;
-    height: auto;
+  padding-top: 5px;
+  height: auto;
 }
 
 .mainImage img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .mainFirstRow {
-    display: flex;
-    height: 500px;
-    background-color: #B6C729;
+  display: flex;
+  height: 500px;
+  background-color: #b6c729;
 }
 
 .twoItems {
-    display: flex;
-    flex-direction: column;
-    float: right;
-    padding-block: 0px;
-    background-color: #B6C729;
-    width: 500px;
-    height: 500px;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  padding-block: 0px;
+  background-color: #b6c729;
+  width: 500px;
+  height: 500px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .item {
-    display: flex;
-    background-color: white;
-    width: 300px;
-    height: 175px;
-    border-radius: 30px;
-    flex-direction: column;
-    padding: 10px
+  display: flex;
+  background-color: white;
+  width: 300px;
+  height: 175px;
+  border-radius: 30px;
+  flex-direction: column;
+  padding: 10px;
 }
 
 .itemTitle {
-    display: flex;
-    justify-content: flex-start;
-    padding: 10px;
-    font-size: 20px;
-    font: normal normal normal 23px Helvetica Neue;
-    border-bottom: 2px solid black;
-    justify-content: space-between;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  font-size: 20px;
+  font: normal normal normal 23px Helvetica Neue;
+  border-bottom: 2px solid black;
+  justify-content: space-between;
 }
 
 .itemInfo {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 10px;
-    font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  font-size: 20px;
 }
 
 .buttonDiv {
-    display: flex;
-    flex-grow: 1;
-    align-items: flex-end;
-    justify-content: center;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .buyBtnStyle {
-    width: 200px;
-    height: 40px;
-    border-radius: 40px;
-    background-color: white;
-    border: solid;
-    border-color: black;
-    border-width: 1px;
-    font-size: 20px;
-    cursor: pointer;
+  width: 200px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: white;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .twoItemsImg {
-    display: flex;
-    flex-direction: column;
-    float: left;
-    padding-block: 0px;
-    background-color: #B6C729;
-    height: 500px;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  padding-block: 0px;
+  background-color: #b6c729;
+  height: 500px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .firstProductImg {
-    width: 300px;
-    height: 300px;
-    background-color: #B6C729;
+  width: 300px;
+  height: 300px;
+  background-color: #b6c729;
 }
 
-    .firstProductImg img {
-        width: 100%;
-        height: 100%;
-        object-fit: scale-down;
-    }
+.firstProductImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
 
 .adjustedSecondRow {
-    background-color: #B6C729;
-    width: 300px;
+  background-color: #b6c729;
+  width: 300px;
 }
 
 .thirdItemDiv {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .thirdItem {
-    width: 450px;
-    height: 250px;
-    border-radius: 80px;
+  width: 450px;
+  height: 250px;
+  border-radius: 80px;
 }
 
 .aboutUs {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .header {
-    justify-content: center;
+  justify-content: center;
 }
 
+h1{
+  font-family: 'Poppins', sans-serif;
+}
 .aboutUs {
-    flex-direction: column;
-    align-items: center;
-    height: 800px;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
 }
 
 .header a {
-    font: small-caps bold 24px/1 sans-serif;
-    font-size: 50px;
+  font: small-caps bold 24px/1 sans-serif;
+  font-size: 50px;
 }
 
 .infoTxt {
-    background-color: #B6C729;
-    width: 600px;
+  background-color: #b6c729;
+  width: 600px;
 }
 
-    .infoTxt p {
-        font: 1.2rem "Fira Sans", sans-serif;
-        font-size: 25px;
-    }
+.infoTxt p {
+  font: 1.2rem "Fira Sans", sans-serif;
+  font-size: 25px;
+}
 
 .footer {
-    display: flex;
-    background-color: black;
-    width: 100%;
-    height: 100%;
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 100%;
 }
 
 .footerItems {
-    display: flex;
-    background-color: black;
-    width: 100px;
-    align-items: center;
+  display: flex;
+  background-color: black;
+  width: 100px;
+  align-items: center;
 }
 
 .footerAdress {
-    padding-top: 20px;
-    flex-direction: column;
-    background-color: black;
-    width: 200px;
+  padding-top: 20px;
+  flex-direction: column;
+  background-color: black;
+  width: 200px;
 }
 
 .footerTelNr {
-    background-color: black;
-    justify-content: center;
-    width: 200px;
+  background-color: black;
+  justify-content: center;
+  width: 200px;
 }
 
 .footerEmail {
-    width: 200px;
-    background-color: black;
+  width: 200px;
+  background-color: black;
 }
 
 .footerLogo {
-    background-color: black;
-    width: 60px;
+  background-color: black;
+  width: 60px;
 }
 
 .footerLogoImg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .footerTxt {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
